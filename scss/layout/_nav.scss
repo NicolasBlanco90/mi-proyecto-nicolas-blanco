@@ -1,0 +1,52 @@
+
+.ulNav {
+    display: flex;
+    align-items: flex-start;
+}
+
+.botones {
+    display: inline-block;
+    padding: 3px;
+    margin: 3px;
+    background-color: white;
+    border-radius: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 118px;
+    color: rgb(0, 0, 0);
+}
+
+.botones:hover {
+    color: rgb(255, 0, 0); 
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    border-radius: 12px;
+    padding: 3px;
+    margin: 3px;
+    
+}
+ul li a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.stick {
+    position: sticky;
+    top: 0;
+    
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+.nav-link:hover {
+    color: rgb(255, 0, 0); 
+}
+
+.navbar-brand:hover {
+    color: rgb(255, 0, 0);
+}
