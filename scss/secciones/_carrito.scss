@@ -1,0 +1,13 @@
+.carrito {
+    @extend %estiloCaja;
+    
+    button {
+        
+        @include btn-irProductos(white);
+
+        a {
+            text-decoration: none;
+            color: red;
+        }
+    }
+}

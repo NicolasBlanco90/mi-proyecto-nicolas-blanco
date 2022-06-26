@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@import './variables/extend.scss';
+@import './variables/mixin';
+
+@import './layout/contenido';
+@import './secciones/carrito';
 @import './layout/grid';
 @import './layout/header';
 @import './layout/nav';

@@ -1,0 +1,7 @@
+@mixin btn-irProductos($colorFondo) {
+    padding: 2px;
+    background-color: $colorFondo;
+    color: black;
+    border-radius: 10px;
+
+}
