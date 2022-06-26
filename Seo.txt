@@ -1,0 +1,4 @@
+Modificaciones SEO:
+- Se personalizaron los "title" de todos los html.
+- Se agregaron los titulos a todos los html (h1).
+- 
