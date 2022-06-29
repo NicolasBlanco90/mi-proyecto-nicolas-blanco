@@ -1,4 +1,10 @@
 Modificaciones SEO:
 - Se personalizaron los "title" de todos los html.
 - Se agregaron los titulos a todos los html (h1).
-- 
+- Se agregaron los keywords a todos los html.
+- Se agregaron las description a todos los html.
+
+Quise agrupar en la carpeta pages todos los html exceptuando el index pero me surgia un problema
+muevo los archivos corrijo los "href” de los link de los navs y cuando ingreso a los html que fueron movidos en el navegador no me carga los estilos y en algunos
+casos me dice que la pagina no existe! vuelvo los archivos a donde estaban y anda todo perfectamente.
+Que podria ser lo que me rompe los html? me estoy olvidando de modificar algo mas que los href”?
