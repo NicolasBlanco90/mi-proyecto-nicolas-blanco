@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="registro,registrate,ingresar,login,usuario">
-    <meta name="description" content="Japanik. Registrate y llevá el control de tus pedidos">
+    <meta name="keywords" content="compra,carrito,productos,envio,finalizar">
+    <meta name="description" content="Japanik. Revisa los productos de tu carrito y finaliza la compra">
     <link rel="shortcut icon" href="images/logo.png" type="image/png">
     <script src="https://kit.fontawesome.com/c5edc8b305.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>• JAPANIK • Formulario de Registro</title>
+    <title>• JAPANIK • Carrito</title>
 </head>
 
 <body>
@@ -35,16 +35,16 @@
                                     <a class="nav-link" aria-current="page" href="./productos.html">Productos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./registro.html">Registro</a>
+                                    <a class="nav-link" href="./pages/registro.html">Registro</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./carrito.html">Carrito</a>
+                                    <a class="nav-link" href="./pages/carrito.html">Carrito</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./ayuda.html">Ayuda</a>
+                                    <a class="nav-link" href="./pages/ayuda.html">Ayuda</a>
                                 </li>
                             </ul>
                         </div>
@@ -53,33 +53,12 @@
             </div>
         </nav>
         <!-- CONTENIDO PRINCIPAL -->
-        <main>
-            <h1>Registrate es gratis!</h1>
-            <h2>Comprá más rápido y llevá el control de tus pedidos, ¡en un solo lugar!</h2>
-
-            <form class="caja">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">No compartiremos tu correo con nadie!</div>
-                </div>
-                <div class="mb-3">
-                    <label for="inputPassword5" class="form-label">Contraseña</label>
-                    <input type="password" id="inputPassword5" class="form-control"
-                        aria-describedby="passwordHelpBlock">
-                    <div id="passwordHelpBlock" class="form-text">
-                        La contraseña debe tener entre 6 y 32 caracteres de longitud y contener, como mínimo, 1 número y 1 mayuscula
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Repetir contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Recibir novedades por correo</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
+        <main class="mainCarrito">
+            <h1>Revisa tus productos y finaliza la compra</h1>
+            <div class="carrito">
+                <p>Tu carrito de compras esta vacio</p>
+                <button><a href="./productos.html">Ir a Productos</a></button>
+            </div>
         </main>
         <!-- FIN CONTENIDO PRINCIPAL -->
         <footer class="bg-dark text-center text-white footer" style="border: solid 5px #212529;">
@@ -110,7 +89,7 @@
                     Japanik-Argentina. Todos los derechos reservados.
                 </p>
                 <ul class="list-group">
-                    <li> <a href="about.html">Sobre nosotros</a></li>
+                    <li> <a href="./pages/about.html">Sobre nosotros</a></li>
                     <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></i></li>
                     <li><a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a></li>
                     <li><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a></li>
