@@ -1,4 +1,5 @@
-.mainCarrito{
+
+.mainCarrito {
     position: relative;
     left: 183px;
     display: flex;
@@ -6,3 +7,17 @@
     padding: 10px;
     margin: 10px;
 }
+
+.mainAyuda {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 50px;
+    flex-direction: column;
+}
+.list-group {
+    --bs-list-group-color: #ffffff;
+    --bs-list-group-bg: #353535;
+}
+

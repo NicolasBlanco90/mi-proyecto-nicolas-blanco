@@ -19,6 +19,18 @@
   padding: 10px;
   margin: 10px; }
 
+.mainAyuda {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 50px;
+  flex-direction: column; }
+
+.list-group {
+  --bs-list-group-color: #ffffff;
+  --bs-list-group-bg: #353535; }
+
 .carrito button {
   padding: 2px;
   background-color: white;
