@@ -6,7 +6,7 @@
 .carrito {
   text-align: center;
   font-size: 25px;
-  background-color: red;
+  background-color: #fc3205;
   color: white;
   border: solid black 5px;
   border-radius: 10px; }
@@ -27,9 +27,15 @@
   margin: 50px;
   flex-direction: column; }
 
+.productos {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 10px; }
+
 .list-group {
   --bs-list-group-color: #ffffff;
-  --bs-list-group-bg: #353535; }
+  --bs-list-group-bg: rgb(252, 50, 5); }
 
 .carrito button {
   padding: 2px;
@@ -38,7 +44,7 @@
   border-radius: 10px; }
   .carrito button a {
     text-decoration: none;
-    color: red; }
+    color: #fc3205; }
 
 .gridGeneral {
   background-image: linear-gradient(to bottom, white, #d4d4d4);
