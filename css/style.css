@@ -31,7 +31,9 @@
   display: flex;
   justify-content: flex-end;
   padding: 10px;
-  margin: 10px; }
+  margin: 10px;
+  flex-direction: column;
+ }
 
 .list-group {
   --bs-list-group-color: #ffffff;
